@@ -1,0 +1,111 @@
+name: store
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  modal_progress_hud_nsn: ^0.5.1
+  flutter_otp_text_field: ^1.1.0+2
+  curved_navigation_bar: ^1.0.3
+  drop_down_list_menu: ^0.0.9
+  firebase_core: ^2.27.1
+  timer_count_down: ^2.2.0
+  flutter_launcher_icons: ^0.13.1
+  firebase_auth: ^4.19.2
+  google_sign_in: ^6.2.1
+
+flutter_icons:
+  image_path: "assest/images/logob.png" 
+  android: true
+  ios: true
+  # optionally, as transparency is not allowed on app store
+  # remove_alpha_ios: true
+
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^4.4.5
+  firebase_auth: ^4.19.0
+    
+    
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assest/images/logo.png
+   - assest/images/logo.png
+   - assest/images/w1.png
+   - assest/images/w2.png
+   - assest/images/w3.png
+   - assest/images/google.png
+   - assest/images/messaging.png
+   - assest/images/profile.jpeg
+   - assest/images/1.png
+   - assest/images/a.png
+   - assest/images/b.png
+   - assest/images/t.png
+   - assest/images/tt.png
+   - assest/images/bl.png
+   - assest/images/bll.png
+   - assest/images/Casualclothes.png
+   - assest/images/jg.png
+   - assest/images/jgg.png
+   - assest/images/sb.png
+   - assest/images/cart.png
+   - assest/images/d.png
+   - assest/images/Formalclothing.png
+   - assest/images/Classicclothing.png
+   - assest/images/sportsclothes.png
+   - assest/images/s1.png
+   - assest/images/s2.png
+   - assest/images/s3.png
+   - assest/images/s4.png
+   - assest/images/s5.png
+   - assest/images/s6.png
+   - assest/images/s7.png
+   - assest/images/s8.png
+   - assest/images/s9.png
+   - assest/images/s10.png
+   - assest/images/cl1.png
+   - assest/images/cl2.png
+   - assest/images/cl3.png
+   - assest/images/cl4.png
+   - assest/images/cl5.png
+   - assest/images/cl6.png
+   - assest/images/cl7.png
+   - assest/images/cl8.png
+   - assest/images/f1.png
+   - assest/images/f2.png
+   - assest/images/f3.png
+   - assest/images/f4.png
+   - assest/images/f5.png
+   - assest/images/f6.png
+   - assest/images/f7.png
+   - assest/images/f8.png
+   - assest/images/ca1.png
+   - assest/images/ca2.png
+   - assest/images/ca3.png
+   - assest/images/ca4.png
+   - assest/images/ca5.png
+   - assest/images/ca6.png
+   - assest/images/ca7.png
+   - assest/images/ca8.png
+    
+  fonts:
+     - family: Pacifico
+       fonts:
+         - asset: assest/fonts/Pacifico-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
